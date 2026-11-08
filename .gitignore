@@ -1,0 +1,18 @@
+# Dependencies
+server/node_modules/
+
+# Generated packages and local test output
+.test-runs/
+.plugin-validation/
+outputs/
+
+# Local backups and runtime data
+backups/
+config/config.json
+*.log
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Proxy for Codex">
+  <defs>
+    <linearGradient id="route" x1="17" y1="20" x2="47" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <path d="M16 20h12.5c3.4 0 6.2 2.8 6.2 6.2v3.4c0 2.5 2.1 4.6 4.6 4.6H48" fill="none" stroke="url(#route)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="16" cy="20" r="6" fill="#5EEAD4"/>
+  <circle cx="48" cy="34.2" r="6" fill="#38BDF8"/>
+  <circle cx="16" cy="20" r="2.3" fill="#082F49"/>
+  <circle cx="48" cy="34.2" r="2.3" fill="#082F49"/>
+</svg>

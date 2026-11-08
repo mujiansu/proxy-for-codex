@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "proxy-for-codex",
+  "version": "0.4.0",
+  "description": "Configure future Codex launches from normal Windows entry points to use a proxy without stopping or restarting running processes.",
+  "author": {
+    "name": "Local Codex Plugins"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "proxy",
+    "chatgpt",
+    "windows",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "Proxy for Codex",
+        "shortDescription": "Use a proxy from normal Codex launches",
+        "longDescription": "Configure independent HTTP and HTTPS proxies for future ChatGPT/Codex launches from normal Windows entry points. Persistent user environment variables apply the proxy after one full restart without creating a separate shortcut. The plugin never stops, terminates, or restarts Codex.",
+        "developerName": "Local Codex Plugins",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Check whether Proxy for Codex is configured and ready.",
+          "Configure this proxy so normal Codex launches will use it after I restart.",
+          "Launch Codex with the configured proxy without restarting an existing instance."
+        ],
+        "brandColor": "#0F766E",
+        "brandColorDark": "#5EEAD4",
+        "composerIcon": "./assets/composer-icon.svg",
+        "composerIconDark": "./assets/composer-icon-dark.svg",
+        "logo": "./assets/logo.svg",
+        "logoDark": "./assets/logo-dark.svg"
+      }
+    }
+  }
+}

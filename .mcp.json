@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "proxy_for_codex": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/launch-mcp.mjs"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

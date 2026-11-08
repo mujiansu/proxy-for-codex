@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "proxyUrl": null,
+  "httpProxy": "http://127.0.0.1:7897",
+  "httpsProxy": "http://127.0.0.1:7897",
+  "noProxy": "localhost,127.0.0.1,::1",
+  "desktopLauncher": "auto",
+  "codexExecutable": "auto"
+}
